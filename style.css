@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: skyblue;
+    font-family: 'Yomogi', cursive;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo img{
+    width: 90px;
+    padding: 0 30px;
+}
+
+header nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0 40px;
+    
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: lightslategrey;
+    font-weight: bolder;
+}
+
+header nav .search{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+header nav .search input{
+    height: 31px;
+    width: 30vw;
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 15px 0 55px;
+}
+
+.slider{
+    width: 73vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.tiles{
+    max-width: 85vw;
+    margin: 40px auto;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.card{
+    display: flex;
+    overflow: scroll;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.tiles h2{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    min-height: calc(100vh - 60px - 15vh);
+}
+
+footer{
+    height: 15vh;
+    background-color: skyblue;
+    font-family: 'Yomogi', cursive;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 25px 0;
+}
+
+.text-center{
+    text-align: center;
+}
