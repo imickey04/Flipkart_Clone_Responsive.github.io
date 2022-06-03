@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap');
+
+header{
+    background-color: skyblue;
+    font-family: 'Yomogi', cursive;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo img{
+    width: 150px;
+    padding: 10px 30px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+header nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0 40px;
+    
+}
+
+header nav ul li a{
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+header nav .search{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+header nav .search input{
+    height: 31px;
+    width: 30vw;
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 15px 0 55px;
+}
+
+.slider{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 100%;
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    border-radius: 5px;
+    opacity: .97;
+}
+
+.slider img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tiles{
+    max-width: 90vw;
+    margin: 40px auto;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.card{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.card-items img{
+    opacity: .95;
+}
+
+.card-items img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tiles h2{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    min-height: calc(100vh - 60px - 15vh);
+}
+
+footer{
+    height: 50px;
+    background-color: skyblue;
+    font-family: 'Yomogi', cursive;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-unicenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    background-color: skyblue;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-family: 'Yomogi', cursive;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 25px 0;
+}
+
+.text-center{
+    text-align: center;
+}
