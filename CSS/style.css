@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap');
 
 header{
-    background-color: skyblue;
+    background-color: rgb(0, 42, 255);
     font-family: 'Yomogi', cursive;
 }
 
@@ -38,17 +38,18 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: lightslategrey;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 header nav ul li a:hover{
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 header nav .search{
     display: flex;
+    margin: auto;
     align-items: center;
     height: 50px;
 }
@@ -122,6 +123,7 @@ header nav .search input{
 
 footer{
     height: 50px;
-    background-color: skyblue;
+    background-color: rgb(0, 42, 255);
+    color: white;
     font-family: 'Yomogi', cursive;
 }
