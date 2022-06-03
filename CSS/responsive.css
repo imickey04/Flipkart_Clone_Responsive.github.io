@@ -43,11 +43,6 @@
         height: 34px;
     }
 
-    header nav ul li a:hover{
-        color: black;
-        font-weight: bold;
-    }
-
     .card-item img{
         /* padding: 10px; */
         width: 140px;
